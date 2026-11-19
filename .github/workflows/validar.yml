@@ -1,4 +1,4 @@
-name: Validar contra la laptop
+name: Validar
 
 on:
   workflow_dispatch:

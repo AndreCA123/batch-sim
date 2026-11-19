@@ -1,4 +1,4 @@
-name: IDA NGA-Sub en la nube
+name: Lote
 
 on:
   workflow_dispatch:
@@ -55,7 +55,7 @@ jobs:
         env:
           REG_PASS: ${{ secrets.REG_PASS }}
         run: gpg --batch --quiet --pinentry-mode loopback --passphrase "$REG_PASS" -d registros_cifrados/nga_ok.tgz.gpg | tar xz
-      - name: IDA de la edificación ${{ matrix.id }} (corte a las 5 h 30 min)
+      - name: Caso ${{ matrix.id }}
         run: |
           nproc
           timeout -s INT 330m python -u codigo/correr_ida.py --registros nga_sub --ids ${{ matrix.id }} --workers $(nproc) --sf-max 10 || echo "terminó o se cortó por tiempo (código $?)"
@@ -87,7 +87,7 @@ jobs:
           git config user.name "ida-bot"
           git config user.email "ida-bot@users.noreply.github.com"
           git add datos/ida_partes
-          git commit -m "IDA nube: partes de la ronda ${{ inputs.ronda }}" || echo "sin partes nuevas"
+          git commit -m "lote: ronda ${{ inputs.ronda }}" || echo "sin partes nuevas"
           git push
       - name: Lanzar otra ronda si quedan pendientes (máx. 6)
         env:
