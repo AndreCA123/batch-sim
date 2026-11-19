@@ -2,3 +2,4 @@ registros_sismicos/
 __pycache__/
 resultados/
 *.log
+.clave_registros
