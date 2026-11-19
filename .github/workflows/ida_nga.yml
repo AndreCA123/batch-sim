@@ -1,0 +1,103 @@
+name: IDA NGA-Sub en la nube
+
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: 'Edificaciones (ids separados por espacio); vacío = datos/ids_16.txt'
+        required: false
+        default: ''
+      ronda:
+        description: 'Ronda automática (no tocar)'
+        required: false
+        default: '1'
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: ida-nga
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      ids: ${{ steps.p.outputs.ids }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - id: p
+        run: echo "ids=$(python codigo/plan_nube.py '${{ inputs.ids }}')" >> "$GITHUB_OUTPUT"
+
+  ida:
+    needs: plan
+    if: needs.plan.outputs.ids != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        id: ${{ fromJson(needs.plan.outputs.ids) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-ida.txt
+      - run: pip install -r requirements-ida.txt
+      - name: Descifrar registros
+        env:
+          REG_PASS: ${{ secrets.REG_PASS }}
+        run: gpg --batch --quiet --pinentry-mode loopback --passphrase "$REG_PASS" -d registros_cifrados/nga_ok.tgz.gpg | tar xz
+      - name: IDA de la edificación ${{ matrix.id }} (corte a las 5 h 30 min)
+        run: |
+          nproc
+          timeout -s INT 330m python -u codigo/correr_ida.py --registros nga_sub --ids ${{ matrix.id }} --workers $(nproc) --sf-max 10 || echo "terminó o se cortó por tiempo (código $?)"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: partes-${{ matrix.id }}
+          path: datos/ida_partes/ida_${{ matrix.id }}_NGA*.csv
+          if-no-files-found: ignore
+          retention-days: 30
+
+  juntar:
+    needs: [plan, ida]
+    if: always() && needs.plan.outputs.ids != '[]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          pattern: partes-*
+          merge-multiple: true
+          path: datos/ida_partes
+      - name: Guardar las partes en el repositorio
+        run: |
+          git config user.name "ida-bot"
+          git config user.email "ida-bot@users.noreply.github.com"
+          git add datos/ida_partes
+          git commit -m "IDA nube: partes de la ronda ${{ inputs.ronda }}" || echo "sin partes nuevas"
+          git push
+      - name: Lanzar otra ronda si quedan pendientes (máx. 6)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          quedan=$(python codigo/plan_nube.py '${{ inputs.ids }}')
+          r=${{ inputs.ronda }}
+          if [ "$quedan" != "[]" ] && [ "$r" -lt 6 ]; then
+            gh workflow run ida_nga.yml -f ids='${{ inputs.ids }}' -f ronda=$((r+1))
+            echo "Ronda $((r+1)) lanzada para $quedan"
+          else
+            echo "Fin: pendientes = $quedan"
+          fi
