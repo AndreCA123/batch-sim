@@ -1,0 +1,16 @@
+id,n_pisos,T1_NL,registro,sismo_num,Mw,mecanismo,Sa_T1_g,factor_escala,IDR_max,piso_IDR_max,deriva_techo_max,colapso,motivo,segundos
+33,5,0.9481,NGA4003182_IbarakiOff:H2,NGA_IbarakiOff,7.92,Interfase,0.1,0.277,0.00265,2,0.0019,False,,40.5
+33,5,0.9481,NGA4003182_IbarakiOff:H2,NGA_IbarakiOff,7.92,Interfase,0.25,0.693,0.00669,2,0.00475,False,,39.8
+33,5,0.9481,NGA4003182_IbarakiOff:H2,NGA_IbarakiOff,7.92,Interfase,0.45,1.247,0.01458,2,0.00862,False,,40.9
+33,5,0.9481,NGA4003182_IbarakiOff:H2,NGA_IbarakiOff,7.92,Interfase,0.575,1.594,0.01806,2,0.01089,False,,26.5
+33,5,0.9481,NGA4003182_IbarakiOff:H2,NGA_IbarakiOff,7.92,Interfase,0.7,1.94,0.02127,2,0.01295,False,,44.1
+33,5,0.9481,NGA4003182_IbarakiOff:H2,NGA_IbarakiOff,7.92,Interfase,0.85,2.356,0.02622,2,0.01587,False,,29.1
+33,5,0.9481,NGA4003182_IbarakiOff:H2,NGA_IbarakiOff,7.92,Interfase,1.0,2.772,0.03152,2,0.0187,False,,46.3
+33,5,0.9481,NGA4003182_IbarakiOff:H2,NGA_IbarakiOff,7.92,Interfase,1.175,3.257,0.03748,2,0.02208,False,,47.7
+33,5,0.9481,NGA4003182_IbarakiOff:H2,NGA_IbarakiOff,7.92,Interfase,1.35,3.742,0.04319,2,0.02646,False,,48.8
+33,5,0.9481,NGA4003182_IbarakiOff:H2,NGA_IbarakiOff,7.92,Interfase,1.55,4.297,0.04666,2,0.03026,False,,50.8
+33,5,0.9481,NGA4003182_IbarakiOff:H2,NGA_IbarakiOff,7.92,Interfase,1.75,4.851,0.05406,2,0.03488,False,,50.4
+33,5,0.9481,NGA4003182_IbarakiOff:H2,NGA_IbarakiOff,7.92,Interfase,1.8625,5.163,0.05934,2,0.03914,False,,52.9
+33,5,0.9481,NGA4003182_IbarakiOff:H2,NGA_IbarakiOff,7.92,Interfase,1.9188,5.319,0.10042,1,0.05374,True,IDR>=10%,15.0
+33,5,0.9481,NGA4003182_IbarakiOff:H2,NGA_IbarakiOff,7.92,Interfase,1.975,5.475,0.10034,1,0.05773,True,IDR>=10%,8.6
+33,5,0.9481,NGA4003182_IbarakiOff:H2,NGA_IbarakiOff,7.92,Interfase,2.2,6.098,0.10072,1,0.05444,True,IDR>=10%,7.1

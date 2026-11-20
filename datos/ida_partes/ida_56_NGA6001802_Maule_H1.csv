@@ -1,0 +1,16 @@
+id,n_pisos,T1_NL,registro,sismo_num,Mw,mecanismo,Sa_T1_g,factor_escala,IDR_max,piso_IDR_max,deriva_techo_max,colapso,motivo,segundos
+56,6,0.9295,NGA6001802_Maule:H1,NGA_Maule,8.81,Interfase,0.1,0.113,0.00232,2,0.00151,False,,21.9
+56,6,0.9295,NGA6001802_Maule:H1,NGA_Maule,8.81,Interfase,0.25,0.281,0.00585,2,0.00375,False,,21.7
+56,6,0.9295,NGA6001802_Maule:H1,NGA_Maule,8.81,Interfase,0.45,0.506,0.01094,2,0.00631,False,,22.5
+56,6,0.9295,NGA6001802_Maule:H1,NGA_Maule,8.81,Interfase,0.7,0.788,0.01488,2,0.00866,False,,24.1
+56,6,0.9295,NGA6001802_Maule:H1,NGA_Maule,8.81,Interfase,1.0,1.125,0.01749,3,0.00996,False,,25.9
+56,6,0.9295,NGA6001802_Maule:H1,NGA_Maule,8.81,Interfase,1.35,1.519,0.02278,3,0.01444,False,,27.2
+56,6,0.9295,NGA6001802_Maule:H1,NGA_Maule,8.81,Interfase,1.75,1.969,0.02881,3,0.01908,False,,27.8
+56,6,0.9295,NGA6001802_Maule:H1,NGA_Maule,8.81,Interfase,2.2,2.475,0.03809,4,0.02733,False,,29.7
+56,6,0.9295,NGA6001802_Maule:H1,NGA_Maule,8.81,Interfase,2.7,3.038,0.0515,6,0.03773,False,,30.4
+56,6,0.9295,NGA6001802_Maule:H1,NGA_Maule,8.81,Interfase,2.975,3.347,0.09195,6,0.06678,False,,31.6
+56,6,0.9295,NGA6001802_Maule:H1,NGA_Maule,8.81,Interfase,3.25,3.657,0.09225,2,0.06388,False,,47.4
+56,6,0.9295,NGA6001802_Maule:H1,NGA_Maule,8.81,Interfase,3.325,3.741,0.10036,6,0.06933,True,IDR>=10%,43.3
+56,6,0.9295,NGA6001802_Maule:H1,NGA_Maule,8.81,Interfase,3.4,3.826,0.10204,6,0.07303,True,IDR>=10%,59.9
+56,6,0.9295,NGA6001802_Maule:H1,NGA_Maule,8.81,Interfase,3.55,3.994,0.10035,6,0.05388,True,IDR>=10%,37.8
+56,6,0.9295,NGA6001802_Maule:H1,NGA_Maule,8.81,Interfase,3.85,4.332,0.10115,6,0.05371,True,IDR>=10%,11.9

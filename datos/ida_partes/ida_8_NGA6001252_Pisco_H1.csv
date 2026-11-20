@@ -1,0 +1,16 @@
+id,n_pisos,T1_NL,registro,sismo_num,Mw,mecanismo,Sa_T1_g,factor_escala,IDR_max,piso_IDR_max,deriva_techo_max,colapso,motivo,segundos
+8,2,0.6941,NGA6001252_Pisco:H1,NGA_Pisco,8.0,Interfase,0.1,0.114,0.00255,1,0.00239,False,,4.5
+8,2,0.6941,NGA6001252_Pisco:H1,NGA_Pisco,8.0,Interfase,0.25,0.285,0.00638,1,0.00598,False,,4.6
+8,2,0.6941,NGA6001252_Pisco:H1,NGA_Pisco,8.0,Interfase,0.45,0.514,0.01149,1,0.01078,False,,4.7
+8,2,0.6941,NGA6001252_Pisco:H1,NGA_Pisco,8.0,Interfase,0.7,0.799,0.0179,1,0.01627,False,,4.8
+8,2,0.6941,NGA6001252_Pisco:H1,NGA_Pisco,8.0,Interfase,1.0,1.142,0.0236,1,0.02023,False,,5.1
+8,2,0.6941,NGA6001252_Pisco:H1,NGA_Pisco,8.0,Interfase,1.35,1.541,0.03451,1,0.02667,False,,5.3
+8,2,0.6941,NGA6001252_Pisco:H1,NGA_Pisco,8.0,Interfase,1.75,1.998,0.04725,1,0.03452,False,,5.4
+8,2,0.6941,NGA6001252_Pisco:H1,NGA_Pisco,8.0,Interfase,1.975,2.255,0.05382,1,0.03857,False,,5.2
+8,2,0.6941,NGA6001252_Pisco:H1,NGA_Pisco,8.0,Interfase,2.2,2.511,0.05986,1,0.04215,False,,5.6
+8,2,0.6941,NGA6001252_Pisco:H1,NGA_Pisco,8.0,Interfase,2.45,2.797,0.06979,1,0.04883,False,,5.4
+8,2,0.6941,NGA6001252_Pisco:H1,NGA_Pisco,8.0,Interfase,2.7,3.082,0.08248,1,0.05878,False,,5.7
+8,2,0.6941,NGA6001252_Pisco:H1,NGA_Pisco,8.0,Interfase,2.975,3.396,0.09404,1,0.07015,False,,5.5
+8,2,0.6941,NGA6001252_Pisco:H1,NGA_Pisco,8.0,Interfase,3.0438,3.475,0.09676,1,0.07313,False,,5.5
+8,2,0.6941,NGA6001252_Pisco:H1,NGA_Pisco,8.0,Interfase,3.1125,3.553,0.10014,1,0.07651,True,IDR>=10%,0.6
+8,2,0.6941,NGA6001252_Pisco:H1,NGA_Pisco,8.0,Interfase,3.25,3.71,0.10081,1,0.07912,True,IDR>=10%,0.3

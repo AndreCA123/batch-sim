@@ -1,0 +1,16 @@
+id,n_pisos,T1_NL,registro,sismo_num,Mw,mecanismo,Sa_T1_g,factor_escala,IDR_max,piso_IDR_max,deriva_techo_max,colapso,motivo,segundos
+33,5,0.9481,NGA4032556_Tokachi-oki:H1,NGA_Tokachi-oki,8.29,Interfase,0.1,0.111,0.00265,2,0.00189,False,,21.1
+33,5,0.9481,NGA4032556_Tokachi-oki:H1,NGA_Tokachi-oki,8.29,Interfase,0.25,0.276,0.00664,2,0.0047,False,,21.6
+33,5,0.9481,NGA4032556_Tokachi-oki:H1,NGA_Tokachi-oki,8.29,Interfase,0.35,0.387,0.00896,2,0.00591,False,,22.8
+33,5,0.9481,NGA4032556_Tokachi-oki:H1,NGA_Tokachi-oki,8.29,Interfase,0.45,0.498,0.01127,2,0.00688,False,,23.5
+33,5,0.9481,NGA4032556_Tokachi-oki:H1,NGA_Tokachi-oki,8.29,Interfase,0.575,0.636,0.01444,2,0.00879,False,,24.7
+33,5,0.9481,NGA4032556_Tokachi-oki:H1,NGA_Tokachi-oki,8.29,Interfase,0.7,0.774,0.01698,2,0.01044,False,,24.5
+33,5,0.9481,NGA4032556_Tokachi-oki:H1,NGA_Tokachi-oki,8.29,Interfase,0.85,0.94,0.01837,2,0.01138,False,,24.9
+33,5,0.9481,NGA4032556_Tokachi-oki:H1,NGA_Tokachi-oki,8.29,Interfase,1.0,1.106,0.02276,2,0.01356,False,,25.7
+33,5,0.9481,NGA4032556_Tokachi-oki:H1,NGA_Tokachi-oki,8.29,Interfase,1.175,1.299,0.02799,2,0.01763,False,,25.7
+33,5,0.9481,NGA4032556_Tokachi-oki:H1,NGA_Tokachi-oki,8.29,Interfase,1.35,1.493,0.03786,2,0.02324,False,,26.2
+33,5,0.9481,NGA4032556_Tokachi-oki:H1,NGA_Tokachi-oki,8.29,Interfase,1.45,1.603,0.04496,2,0.02724,False,,26.8
+33,5,0.9481,NGA4032556_Tokachi-oki:H1,NGA_Tokachi-oki,8.29,Interfase,1.55,1.714,0.05123,2,0.0311,False,,28.2
+33,5,0.9481,NGA4032556_Tokachi-oki:H1,NGA_Tokachi-oki,8.29,Interfase,1.65,1.825,0.05783,2,0.03527,False,,28.7
+33,5,0.9481,NGA4032556_Tokachi-oki:H1,NGA_Tokachi-oki,8.29,Interfase,1.7,1.88,0.10024,1,0.04507,True,IDR>=10%,11.5
+33,5,0.9481,NGA4032556_Tokachi-oki:H1,NGA_Tokachi-oki,8.29,Interfase,1.75,1.935,0.10124,1,0.05036,True,IDR>=10%,10.9

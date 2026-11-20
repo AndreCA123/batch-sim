@@ -1,0 +1,16 @@
+id,n_pisos,T1_NL,registro,sismo_num,Mw,mecanismo,Sa_T1_g,factor_escala,IDR_max,piso_IDR_max,deriva_techo_max,colapso,motivo,segundos
+103,3,0.8321,NGA6002203_Iquique:H1,NGA_Iquique,8.15,Interfase,0.1,0.17,0.00324,2,0.00252,False,,16.7
+103,3,0.8321,NGA6002203_Iquique:H1,NGA_Iquique,8.15,Interfase,0.25,0.425,0.00809,2,0.00629,False,,17.5
+103,3,0.8321,NGA6002203_Iquique:H1,NGA_Iquique,8.15,Interfase,0.45,0.765,0.0146,2,0.01113,False,,17.6
+103,3,0.8321,NGA6002203_Iquique:H1,NGA_Iquique,8.15,Interfase,0.7,1.19,0.01881,2,0.01567,False,,19.7
+103,3,0.8321,NGA6002203_Iquique:H1,NGA_Iquique,8.15,Interfase,1.0,1.7,0.03329,2,0.02784,False,,21.3
+103,3,0.8321,NGA6002203_Iquique:H1,NGA_Iquique,8.15,Interfase,1.35,2.295,0.0471,2,0.03745,False,,23.3
+103,3,0.8321,NGA6002203_Iquique:H1,NGA_Iquique,8.15,Interfase,1.75,2.975,0.05492,2,0.04022,False,,25.3
+103,3,0.8321,NGA6002203_Iquique:H1,NGA_Iquique,8.15,Interfase,1.975,3.357,0.05549,2,0.04021,False,,26.2
+103,3,0.8321,NGA6002203_Iquique:H1,NGA_Iquique,8.15,Interfase,2.2,3.74,0.0545,2,0.04019,False,,26.5
+103,3,0.8321,NGA6002203_Iquique:H1,NGA_Iquique,8.15,Interfase,2.45,4.165,0.05449,3,0.04266,False,,27.4
+103,3,0.8321,NGA6002203_Iquique:H1,NGA_Iquique,8.15,Interfase,2.7,4.59,0.06628,1,0.05071,False,,27.3
+103,3,0.8321,NGA6002203_Iquique:H1,NGA_Iquique,8.15,Interfase,2.8375,4.823,0.07548,1,0.05678,False,,27.2
+103,3,0.8321,NGA6002203_Iquique:H1,NGA_Iquique,8.15,Interfase,2.9062,4.94,0.08649,1,0.06062,False,,27.1
+103,3,0.8321,NGA6002203_Iquique:H1,NGA_Iquique,8.15,Interfase,2.975,5.057,0.1003,1,0.06519,True,IDR>=10%,13.2
+103,3,0.8321,NGA6002203_Iquique:H1,NGA_Iquique,8.15,Interfase,3.25,5.525,0.10139,1,0.05968,True,IDR>=10%,4.2
