@@ -392,12 +392,21 @@ def ida_registro(construir, reg, T1, sf_max=10.0):
                 sa_ok = medio
     # fill: rellenar los huecos más grandes por debajo del colapso
     while len(corridas) < N_MAX_CORRIDAS and not cortado:
-        niveles = [0.0] + sorted(s for s, r in corridas.items() if not r['colapso'])
+        # niveles: todas las corridas hasta la mayor Sa sin colapso (incluye los
+        # colapsos "intermedios" de registros no monotónicos; si se excluyeran, el
+        # punto medio repetiría una Sa ya corrida y el bucle no terminaría)
+        sin_col = [s for s, r in corridas.items() if not r['colapso']]
+        if not sin_col:
+            break
+        tope = max(sin_col)
+        niveles = [0.0] + sorted(s for s in corridas if s <= tope)
         huecos = np.diff(niveles)
         if len(huecos) == 0 or huecos.max() < 0.05:
             break
         k = int(np.argmax(huecos))
         sa_fill = 0.5 * (niveles[k] + niveles[k + 1])
+        if sa_fill in corridas:          # seguro adicional contra repetir una Sa
+            break
         if sf_max is not None and (sa_fill / sa_reg) > sf_max:
             print(f"      [sf-max] {reg['nombre']} Sa={sa_fill:.4f}g factor={sa_fill / sa_reg:.2f} > {sf_max} omitido", flush=True)
             break
