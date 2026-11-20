@@ -1,0 +1,16 @@
+id,n_pisos,T1_NL,registro,sismo_num,Mw,mecanismo,Sa_T1_g,factor_escala,IDR_max,piso_IDR_max,deriva_techo_max,colapso,motivo,segundos
+52,2,0.595,NGA6002262_Coastal.Chile:H2,NGA_Coastal.Chile,8.31,Interfase,0.1,0.175,0.00178,1,0.00177,False,,5.2
+52,2,0.595,NGA6002262_Coastal.Chile:H2,NGA_Coastal.Chile,8.31,Interfase,0.25,0.438,0.00445,1,0.00442,False,,5.3
+52,2,0.595,NGA6002262_Coastal.Chile:H2,NGA_Coastal.Chile,8.31,Interfase,0.45,0.788,0.008,1,0.00796,False,,5.3
+52,2,0.595,NGA6002262_Coastal.Chile:H2,NGA_Coastal.Chile,8.31,Interfase,0.7,1.225,0.01584,1,0.01403,False,,5.6
+52,2,0.595,NGA6002262_Coastal.Chile:H2,NGA_Coastal.Chile,8.31,Interfase,1.0,1.751,0.02685,1,0.02284,False,,5.9
+52,2,0.595,NGA6002262_Coastal.Chile:H2,NGA_Coastal.Chile,8.31,Interfase,1.35,2.363,0.04247,1,0.03952,False,,6.1
+52,2,0.595,NGA6002262_Coastal.Chile:H2,NGA_Coastal.Chile,8.31,Interfase,1.75,3.064,0.04695,2,0.04561,False,,6.2
+52,2,0.595,NGA6002262_Coastal.Chile:H2,NGA_Coastal.Chile,8.31,Interfase,1.975,3.458,0.04858,2,0.04609,False,,6.2
+52,2,0.595,NGA6002262_Coastal.Chile:H2,NGA_Coastal.Chile,8.31,Interfase,2.2,3.851,0.05218,1,0.04934,False,,6.3
+52,2,0.595,NGA6002262_Coastal.Chile:H2,NGA_Coastal.Chile,8.31,Interfase,2.45,4.289,0.06052,1,0.0578,False,,6.3
+52,2,0.595,NGA6002262_Coastal.Chile:H2,NGA_Coastal.Chile,8.31,Interfase,2.7,4.727,0.08669,1,0.08104,False,,6.1
+52,2,0.595,NGA6002262_Coastal.Chile:H2,NGA_Coastal.Chile,8.31,Interfase,2.8375,4.967,0.0772,1,0.0733,False,,6.4
+52,2,0.595,NGA6002262_Coastal.Chile:H2,NGA_Coastal.Chile,8.31,Interfase,2.9062,5.088,0.10014,1,0.09322,True,IDR>=10%,1.7
+52,2,0.595,NGA6002262_Coastal.Chile:H2,NGA_Coastal.Chile,8.31,Interfase,2.975,5.208,0.1007,1,0.09289,True,IDR>=10%,1.5
+52,2,0.595,NGA6002262_Coastal.Chile:H2,NGA_Coastal.Chile,8.31,Interfase,3.25,5.69,0.1013,1,0.0937,True,IDR>=10%,1.3

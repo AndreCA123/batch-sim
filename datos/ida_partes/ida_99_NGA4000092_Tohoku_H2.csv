@@ -1,0 +1,16 @@
+id,n_pisos,T1_NL,registro,sismo_num,Mw,mecanismo,Sa_T1_g,factor_escala,IDR_max,piso_IDR_max,deriva_techo_max,colapso,motivo,segundos
+99,3,0.9372,NGA4000092_Tohoku:H2,NGA_Tohoku,9.12,Interfase,0.1,0.087,0.00359,1,0.00295,False,,33.1
+99,3,0.9372,NGA4000092_Tohoku:H2,NGA_Tohoku,9.12,Interfase,0.25,0.216,0.0091,1,0.00738,False,,33.7
+99,3,0.9372,NGA4000092_Tohoku:H2,NGA_Tohoku,9.12,Interfase,0.45,0.39,0.0154,1,0.01122,False,,36.1
+99,3,0.9372,NGA4000092_Tohoku:H2,NGA_Tohoku,9.12,Interfase,0.7,0.606,0.0193,1,0.01367,False,,36.8
+99,3,0.9372,NGA4000092_Tohoku:H2,NGA_Tohoku,9.12,Interfase,1.0,0.866,0.02359,1,0.01707,False,,38.2
+99,3,0.9372,NGA4000092_Tohoku:H2,NGA_Tohoku,9.12,Interfase,1.175,1.017,0.02596,1,0.01872,False,,38.7
+99,3,0.9372,NGA4000092_Tohoku:H2,NGA_Tohoku,9.12,Interfase,1.35,1.169,0.02973,1,0.02103,False,,39.2
+99,3,0.9372,NGA4000092_Tohoku:H2,NGA_Tohoku,9.12,Interfase,1.55,1.342,0.03276,1,0.02262,False,,38.7
+99,3,0.9372,NGA4000092_Tohoku:H2,NGA_Tohoku,9.12,Interfase,1.75,1.515,0.03852,1,0.02462,False,,44.4
+99,3,0.9372,NGA4000092_Tohoku:H2,NGA_Tohoku,9.12,Interfase,1.975,1.71,0.05794,1,0.03099,False,,44.7
+99,3,0.9372,NGA4000092_Tohoku:H2,NGA_Tohoku,9.12,Interfase,2.2,1.905,0.04237,1,0.02765,False,,42.9
+99,3,0.9372,NGA4000092_Tohoku:H2,NGA_Tohoku,9.12,Interfase,2.45,2.121,0.05465,1,0.03454,False,,41.1
+99,3,0.9372,NGA4000092_Tohoku:H2,NGA_Tohoku,9.12,Interfase,2.575,2.23,0.05927,1,0.0366,False,,40.7
+99,3,0.9372,NGA4000092_Tohoku:H2,NGA_Tohoku,9.12,Interfase,2.6375,2.284,0.10023,1,0.05753,True,IDR>=10%,18.4
+99,3,0.9372,NGA4000092_Tohoku:H2,NGA_Tohoku,9.12,Interfase,2.7,2.338,0.10001,1,0.05785,True,IDR>=10%,15.8

@@ -1,0 +1,16 @@
+id,n_pisos,T1_NL,registro,sismo_num,Mw,mecanismo,Sa_T1_g,factor_escala,IDR_max,piso_IDR_max,deriva_techo_max,colapso,motivo,segundos
+119,3,0.8006,NGA6002693_Coastal.Ecuador:H2,NGA_Coastal.Ecuador,7.82,Interfase,0.1,0.151,0.00277,2,0.00222,False,,5.5
+119,3,0.8006,NGA6002693_Coastal.Ecuador:H2,NGA_Coastal.Ecuador,7.82,Interfase,0.175,0.265,0.00485,2,0.00389,False,,5.6
+119,3,0.8006,NGA6002693_Coastal.Ecuador:H2,NGA_Coastal.Ecuador,7.82,Interfase,0.25,0.378,0.00692,2,0.00555,False,,5.5
+119,3,0.8006,NGA6002693_Coastal.Ecuador:H2,NGA_Coastal.Ecuador,7.82,Interfase,0.35,0.53,0.01012,2,0.00797,False,,5.7
+119,3,0.8006,NGA6002693_Coastal.Ecuador:H2,NGA_Coastal.Ecuador,7.82,Interfase,0.4,0.606,0.01227,2,0.0095,False,,5.8
+119,3,0.8006,NGA6002693_Coastal.Ecuador:H2,NGA_Coastal.Ecuador,7.82,Interfase,0.45,0.681,0.01446,2,0.01114,False,,5.6
+119,3,0.8006,NGA6002693_Coastal.Ecuador:H2,NGA_Coastal.Ecuador,7.82,Interfase,0.5125,0.776,0.0164,2,0.01284,False,,5.9
+119,3,0.8006,NGA6002693_Coastal.Ecuador:H2,NGA_Coastal.Ecuador,7.82,Interfase,0.575,0.87,0.01783,2,0.01398,False,,5.9
+119,3,0.8006,NGA6002693_Coastal.Ecuador:H2,NGA_Coastal.Ecuador,7.82,Interfase,0.6375,0.965,0.02103,2,0.01703,False,,6.0
+119,3,0.8006,NGA6002693_Coastal.Ecuador:H2,NGA_Coastal.Ecuador,7.82,Interfase,0.7,1.06,0.03222,2,0.02784,False,,6.0
+119,3,0.8006,NGA6002693_Coastal.Ecuador:H2,NGA_Coastal.Ecuador,7.82,Interfase,0.775,1.173,0.04122,2,0.03619,False,,6.2
+119,3,0.8006,NGA6002693_Coastal.Ecuador:H2,NGA_Coastal.Ecuador,7.82,Interfase,0.85,1.287,0.05842,2,0.05364,False,,6.3
+119,3,0.8006,NGA6002693_Coastal.Ecuador:H2,NGA_Coastal.Ecuador,7.82,Interfase,0.925,1.4,0.08718,1,0.08151,False,,6.5
+119,3,0.8006,NGA6002693_Coastal.Ecuador:H2,NGA_Coastal.Ecuador,7.82,Interfase,0.9625,1.457,0.10023,1,0.09423,True,IDR>=10%,1.6
+119,3,0.8006,NGA6002693_Coastal.Ecuador:H2,NGA_Coastal.Ecuador,7.82,Interfase,1.0,1.514,0.10073,1,0.09085,True,IDR>=10%,1.6

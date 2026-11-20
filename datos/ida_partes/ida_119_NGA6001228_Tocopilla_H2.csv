@@ -1,0 +1,16 @@
+id,n_pisos,T1_NL,registro,sismo_num,Mw,mecanismo,Sa_T1_g,factor_escala,IDR_max,piso_IDR_max,deriva_techo_max,colapso,motivo,segundos
+119,3,0.8006,NGA6001228_Tocopilla:H2,NGA_Tocopilla,7.75,Interfase,0.1,0.116,0.00284,2,0.00226,False,,8.9
+119,3,0.8006,NGA6001228_Tocopilla:H2,NGA_Tocopilla,7.75,Interfase,0.25,0.289,0.00709,2,0.00564,False,,9.2
+119,3,0.8006,NGA6001228_Tocopilla:H2,NGA_Tocopilla,7.75,Interfase,0.45,0.52,0.01191,2,0.0092,False,,9.4
+119,3,0.8006,NGA6001228_Tocopilla:H2,NGA_Tocopilla,7.75,Interfase,0.7,0.809,0.01772,2,0.01357,False,,9.5
+119,3,0.8006,NGA6001228_Tocopilla:H2,NGA_Tocopilla,7.75,Interfase,1.0,1.155,0.02425,2,0.01915,False,,10.2
+119,3,0.8006,NGA6001228_Tocopilla:H2,NGA_Tocopilla,7.75,Interfase,1.35,1.56,0.02899,2,0.02386,False,,10.1
+119,3,0.8006,NGA6001228_Tocopilla:H2,NGA_Tocopilla,7.75,Interfase,1.75,2.022,0.03492,2,0.02954,False,,10.4
+119,3,0.8006,NGA6001228_Tocopilla:H2,NGA_Tocopilla,7.75,Interfase,2.2,2.542,0.04412,2,0.03815,False,,10.5
+119,3,0.8006,NGA6001228_Tocopilla:H2,NGA_Tocopilla,7.75,Interfase,2.7,3.12,0.05434,2,0.04788,False,,10.7
+119,3,0.8006,NGA6001228_Tocopilla:H2,NGA_Tocopilla,7.75,Interfase,3.25,3.755,0.06582,2,0.05879,False,,10.7
+119,3,0.8006,NGA6001228_Tocopilla:H2,NGA_Tocopilla,7.75,Interfase,3.85,4.448,0.09631,2,0.08904,False,,10.9
+119,3,0.8006,NGA6001228_Tocopilla:H2,NGA_Tocopilla,7.75,Interfase,4.175,4.824,0.09891,3,0.08874,False,,11.5
+119,3,0.8006,NGA6001228_Tocopilla:H2,NGA_Tocopilla,7.75,Interfase,4.2562,4.918,0.10022,2,0.09011,True,IDR>=10%,2.4
+119,3,0.8006,NGA6001228_Tocopilla:H2,NGA_Tocopilla,7.75,Interfase,4.3375,5.012,0.10069,3,0.07756,True,IDR>=10%,1.4
+119,3,0.8006,NGA6001228_Tocopilla:H2,NGA_Tocopilla,7.75,Interfase,4.5,5.2,0.10155,3,0.07873,True,IDR>=10%,1.4

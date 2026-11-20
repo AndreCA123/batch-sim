@@ -1,0 +1,16 @@
+id,n_pisos,T1_NL,registro,sismo_num,Mw,mecanismo,Sa_T1_g,factor_escala,IDR_max,piso_IDR_max,deriva_techo_max,colapso,motivo,segundos
+39,4,0.8959,NGA6001750_Central.Chile:H2,NGA_Central.Chile,7.98,Interfase,0.1,0.175,0.00288,3,0.00227,False,,5.0
+39,4,0.8959,NGA6001750_Central.Chile:H2,NGA_Central.Chile,7.98,Interfase,0.25,0.439,0.00723,3,0.00572,False,,5.1
+39,4,0.8959,NGA6001750_Central.Chile:H2,NGA_Central.Chile,7.98,Interfase,0.45,0.79,0.0137,3,0.01065,False,,5.6
+39,4,0.8959,NGA6001750_Central.Chile:H2,NGA_Central.Chile,7.98,Interfase,0.7,1.228,0.02787,4,0.01886,False,,6.0
+39,4,0.8959,NGA6001750_Central.Chile:H2,NGA_Central.Chile,7.98,Interfase,1.0,1.755,0.03219,4,0.02133,False,,6.4
+39,4,0.8959,NGA6001750_Central.Chile:H2,NGA_Central.Chile,7.98,Interfase,1.35,2.369,0.03506,4,0.02203,False,,6.8
+39,4,0.8959,NGA6001750_Central.Chile:H2,NGA_Central.Chile,7.98,Interfase,1.75,3.071,0.06179,4,0.04295,False,,7.3
+39,4,0.8959,NGA6001750_Central.Chile:H2,NGA_Central.Chile,7.98,Interfase,2.2,3.86,0.0677,3,0.06012,False,,7.6
+39,4,0.8959,NGA6001750_Central.Chile:H2,NGA_Central.Chile,7.98,Interfase,2.7,4.737,0.07034,4,0.05098,False,,7.6
+39,4,0.8959,NGA6001750_Central.Chile:H2,NGA_Central.Chile,7.98,Interfase,2.975,5.22,0.0756,4,0.05987,False,,8.1
+39,4,0.8959,NGA6001750_Central.Chile:H2,NGA_Central.Chile,7.98,Interfase,3.25,5.703,0.07536,4,0.05542,False,,8.4
+39,4,0.8959,NGA6001750_Central.Chile:H2,NGA_Central.Chile,7.98,Interfase,3.325,5.834,0.07262,1,0.05582,False,,8.5
+39,4,0.8959,NGA6001750_Central.Chile:H2,NGA_Central.Chile,7.98,Interfase,3.4,5.966,0.10049,1,0.07599,True,IDR>=10%,6.7
+39,4,0.8959,NGA6001750_Central.Chile:H2,NGA_Central.Chile,7.98,Interfase,3.55,6.229,0.10094,2,0.08893,True,IDR>=10%,3.8
+39,4,0.8959,NGA6001750_Central.Chile:H2,NGA_Central.Chile,7.98,Interfase,3.85,6.755,0.1032,4,0.07578,True,IDR>=10%,7.3
