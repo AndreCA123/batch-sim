@@ -58,7 +58,7 @@ jobs:
       - name: Caso ${{ matrix.id }}
         run: |
           nproc
-          timeout -s INT 330m python -u codigo/correr_ida.py --registros nga_sub --ids ${{ matrix.id }} --workers $(nproc) --sf-max 10 || echo "terminó o se cortó por tiempo (código $?)"
+          timeout -s TERM -k 90s 325m python -u codigo/correr_ida.py --registros nga_sub --ids ${{ matrix.id }} --workers $(nproc) --sf-max 10 || echo "terminó o se cortó por tiempo (código $?)"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
